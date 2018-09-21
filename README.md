@@ -1,6 +1,6 @@
-# well-web-demo
+# scheduler-web
 
-## Well Appointment Scheduler Demo Website
+## Demo Appointment Scheduler Web App
 
 Instructions are for Linux/Mac/Windows. Should work cross platform.
 
@@ -65,4 +65,4 @@ When deploying to production, this is served as a static site.
 
 ### API Server
 
-Checkout the well-api-demo project, and build/start/dev. See documentation there.
+Checkout the scheduler-api project, and build/start/dev. See documentation there.
