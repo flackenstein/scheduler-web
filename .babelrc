@@ -1,0 +1,28 @@
+{
+    "presets": [
+        "env",
+        "react",
+        "stage-2" 
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+        "transform-class-properties",
+        ["transform-strict-mode", {
+            "strict": true
+        }],
+        ["module-resolver", {
+            "root": ["./src"],
+            "alias": {
+                "components": "./src/app/components",
+                "fonts": "./src/app/fonts",
+                "lib": "./src/app/lib",
+                "pages": "./src/app/pages",
+                "router": "./src/app/router",
+                "stores": "./src/app/stores",
+                "styles": "./src/app/styles",
+                "assets": "./src/assets"
+            },
+            "extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
+        }]
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./.build",
+        "target": "es2017",
+        "checkJs": true,
+        "allowSyntheticDefaultImports": false,
+        "baseUrl": ".",
+        "paths": {
+            "components/*": ["./src/app/components/*"],
+            "fonts/*": ["./src/app/fonts/*"],
+            "lib/*": ["./src/app/lib/*"],
+            "pages/*": ["./src/app/pages/*"],
+            "router/*": ["./src/app/router/*"],
+            "stores/*": ["./src/app/stores/*"],
+            "styles/*": ["./src/app/styles/*"],
+            "assets/*": ["./src/assets/*"]
+        }
+    },
+    "exclude": ["node_modules", ".build"]
+}
